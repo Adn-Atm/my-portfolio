@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio professionnel." />
+  <title>Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page">
+    <div id="scroll-progress"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header id="site-header">
+      <nav class="nav-inner">
+        <button id="navbar-brand" class="brand"></button>
+        <ul id="navbar-links"></ul>
+        <button id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      </nav>
+    </header>
+    <div id="mobile-menu">
+      <nav id="mobile-nav-links"></nav>
+    </div>
+
+    <main>
+      <!-- ===== HERO ===== -->
+      <section id="accueil">
+        <div id="floating-shapes" aria-hidden="true"></div>
+
+        <div class="hero-inner">
+          <div class="profile-card">
+            <div class="avatar"><span id="hero-initials"></span></div>
+            <p class="hero-greeting" id="hero-greeting"></p>
+            <h1 class="hero-name">
+              <span id="hero-firstname"></span> <span class="accent" id="hero-lastname"></span>
+            </h1>
+            <p class="hero-role" id="hero-title"></p>
+            <p class="hero-bio" id="hero-bio"></p>
+            <div class="hero-tags" id="hero-tags"></div>
+            <div class="hero-buttons">
+              <button id="btn-see-projects" class="btn-primary">
+                Voir mes projets
+                <span id="btn-arrow"></span>
+              </button>
+              <button id="btn-contact-me" class="btn-secondary">Me contacter</button>
+            </div>
+          </div>
+          <p class="hero-tagline" id="hero-tagline"></p>
+        </div>
+
+        <div class="scroll-indicator">
+          <span>Scroll</span>
+          <div class="bounce" id="scroll-arrow"></div>
+        </div>
+      </section>
+
+      <!-- ===== PROJETS ===== -->
+      <section id="projets">
+        <div class="section-inner wide">
+          <div class="section-header reveal in-view">
+            <h2>Projets</h2>
+            <div class="section-rule"></div>
+          </div>
+          <div id="projects-list"></div>
+        </div>
+      </section>
+
+      <!-- ===== À PROPOS ===== -->
+      <section id="a-propos">
+        <div class="section-inner">
+          <div class="section-header reveal in-view">
+            <h2>À propos</h2>
+            <div class="section-rule"></div>
+          </div>
+
+          <p class="about-text" id="about-description"></p>
+
+          <div class="subsection">
+            <h3>Formation</h3>
+            <div id="about-education"></div>
+          </div>
+
+          <div class="subsection">
+            <h3>Centres d'intérêt</h3>
+            <ul id="about-interests"></ul>
+          </div>
+
+          <div class="subsection" style="margin-bottom:0;">
+            <h3>Compétences</h3>
+            <div id="about-skills"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact">
+        <div class="section-inner narrow">
+          <div class="section-header reveal in-view">
+            <h2>Travaillons ensemble.</h2>
+            <div class="section-rule" style="margin-bottom:1.5rem;"></div>
+            <p class="contact-subtitle" id="contact-subtitle"></p>
+          </div>
+
+          <div id="contact-items"></div>
+
+          <form id="contact-form">
+            <div class="form-grid">
+              <div>
+                <label for="name">Nom</label>
+                <input id="name" name="name" type="text" required placeholder="Votre nom" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="votre@email.com" />
+              </div>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Votre message..."></textarea>
+            </div>
+            <button type="submit" id="form-submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="site-footer">
+      <div class="footer-inner">
+        <p class="footer-copy">© <span id="footer-year"></span> <span id="footer-name"></span></p>
+        <div class="footer-links">
+          <a id="footer-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span class="footer-dot">·</span>
+          <a id="footer-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span class="footer-dot">·</span>
+          <a id="footer-email">Email</a>
+        </div>
+        <p class="footer-tagline">Designed &amp; engineered with curiosity.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

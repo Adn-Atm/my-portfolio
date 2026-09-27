@@ -1,0 +1,12 @@
+Déposez ici vos fichiers de projets (PDF, images, zip, vidéos...).
+
+Exemple : vous déposez "rapport-co2.pdf" dans ce dossier, puis dans
+js/data.js, sur le projet concerné, dans son tableau "files", vous ajoutez :
+
+  { name: "rapport-co2.pdf", label: "Rapport (PDF)" }
+
+Le site créera automatiquement un bouton de téléchargement direct vers
+ce fichier — pas besoin de l'héberger ailleurs.
+
+Vous pouvez supprimer ce fichier (LISEZ-MOI.txt) une fois que vous avez
+ajouté vos propres fichiers.
