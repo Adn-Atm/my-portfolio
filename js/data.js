@@ -15,7 +15,6 @@ const PORTFOLIO_DATA = {
     firstName: "Adnane",
     lastName: "Atmani",
     title: "Ingénieur d'État en Génie Chimique",
-    tagline: "Engineering ideas into real-world solutions.",
     email: "adnanatmani22@email.com",
     phone: "+212 0641664868",
     linkedin: "https://linkedin.com/in/alexandre-dupont",
