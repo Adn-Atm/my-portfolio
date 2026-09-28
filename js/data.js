@@ -24,7 +24,7 @@ const PORTFOLIO_DATA = {
   // ------------------------------------------------------------
   hero: {
     greeting: "Bonjour, je suis",
-    bio: "Passionné par les procédés industriels, les matériaux et la simulation .",
+    bio: "Passionné par les procédés industriels, les matériaux et la simulation, je suis actuellement à la recherche d'un stage de fin d'études (PFE) pour valider ma dernière année d'ingénieur .",
     tags: [
       "Process",
       "Materials",
@@ -160,7 +160,7 @@ const PORTFOLIO_DATA = {
   // ------------------------------------------------------------
   contact: {
     subtitle:
-      "Vous avez un projet, une idée ou une opportunité de collaboration ? N'hésitez pas à me contacter.",
+      "N'hésitez pas à me contacter.",
 
     // ------------------------------------------------------------
     // RECEVOIR LES MESSAGES DU FORMULAIRE DIRECTEMENT PAR EMAIL
