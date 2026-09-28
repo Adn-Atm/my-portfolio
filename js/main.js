@@ -229,20 +229,6 @@
       href: `tel:${d.site.phone.replace(/\s/g, "")}`,
       copyable: true,
     },
-    {
-      icon: ICON_LINKEDIN,
-      label: "LinkedIn",
-      value: d.site.linkedin.replace(/^https?:\/\//, ""),
-      href: d.site.linkedin,
-      copyable: false,
-    },
-    {
-      icon: ICON_GITHUB,
-      label: "GitHub",
-      value: d.site.github.replace(/^https?:\/\//, ""),
-      href: d.site.github,
-      copyable: false,
-    },
   ];
 
   const contactContainer = document.getElementById("contact-items");
