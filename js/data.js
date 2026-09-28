@@ -14,11 +14,9 @@ const PORTFOLIO_DATA = {
   site: {
     firstName: "Adnane",
     lastName: "Atmani",
-    title: "Ingénieur d'État en Génie Chimique",
-    email: "adnanatmani22@email.com",
-    phone: "+212 0641664868",
-    linkedin: "https://linkedin.com/in/alexandre-dupont",
-    github: "https://github.com/alexandre-dupont",
+    title: "Eleve Ingénieur d'État en Génie Chimique",
+    email: "adnanatmani22@gmail.com",
+    phone: "+212 641664868",
   },
 
   // ------------------------------------------------------------
@@ -30,7 +28,6 @@ const PORTFOLIO_DATA = {
     tags: [
       "Process",
       "Materials",
-      "Aspen Plus",
       "Water Treatment",
     ],
   },
@@ -76,7 +73,7 @@ const PORTFOLIO_DATA = {
       tags: [],
       files: [
         { name: "DOE BBD", path: "DOE BBD.xlsx" },
-        { name: "Modele calculateur", path: "Modele calculateur.xlsx" },
+        { name: "Modele calculateur", path: "Modele calculateur.xlsm" },
         { name: "Model et DOE", path: "Model et DOE.pdf" }
       ],
       link: "",
