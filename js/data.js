@@ -182,6 +182,6 @@ const PORTFOLIO_DATA = {
     // place le client mail du visiteur (mailto) avec le message
     // pré-rempli — ça marche sans rien configurer, mais ça dépend
     // du visiteur ayant un client mail installé.
-    web3formsKey: "88cafbec-4dd6-49cf-9b25-7b57d139abd8",
+    web3formsKey: "2c058531-0209-4f9c-b7f9-874519862dc0",
   },
 };
