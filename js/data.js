@@ -132,7 +132,7 @@ const PORTFOLIO_DATA = {
   // ------------------------------------------------------------
   about: {
     description:
-      "Ingénieur d'État en Génie Chimique découvrant comment l'ère de confort à été façonnée.",
+      "Élève-Ingénieur d'État en Génie Chimique, fasciné par la manière dont les procédés chimiques et les matériaux ont façonné le monde moderne.",
     education: [
       {
         degree: "Ingénieur d'État en Génie Chimique",
@@ -182,6 +182,6 @@ const PORTFOLIO_DATA = {
     // place le client mail du visiteur (mailto) avec le message
     // pré-rempli — ça marche sans rien configurer, mais ça dépend
     // du visiteur ayant un client mail installé.
-    web3formsKey: "",
+    web3formsKey: "88cafbec-4dd6-49cf-9b25-7b57d139abd8",
   },
 };
